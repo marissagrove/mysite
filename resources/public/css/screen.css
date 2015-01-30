@@ -148,12 +148,16 @@ h2 {
     }
 
 .place-image {
-    visibility: hidden;
+    display: none;
     -webkit-transiton: opacity 0.2s;
     -moz-transition: opacity 0.2s;
     -ms-transition: opacity 0.2s;
     -o-transition: opacity 0.2s;
     transition: opacity 0.2s;
+    }
+
+.place-title:hover {
+    visibility: visible;
     }
 
 .place-title:hover .place-image {

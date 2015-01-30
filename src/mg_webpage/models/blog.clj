@@ -25,6 +25,6 @@
          [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
          [:body
           common/navbar
-          [:h1.entry-title " " [:img {:src "/img/blog.png"}]]
+          [:h1.entry-title " "]
           [:p.entry-details]
           [:div.main-content]]]))
