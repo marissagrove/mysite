@@ -10,4 +10,6 @@
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
     [:body common/navbar
      [:img.hmimg {:src "/img/jordan.jpg"}]
+     [:img.hmimg {:src "/img/jord.jpg"}]
+     [:img.hmimg {:src "/img/jd.jpg"}]
      body]))

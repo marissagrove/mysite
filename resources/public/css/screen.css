@@ -11,9 +11,7 @@ body {
     }
 
 .hmimg {
-    margin-left: 26%;
     width: 50%;
-    margin-top: inherit;
     }
 
 .title {
@@ -152,10 +150,13 @@ h3 {
 
 .project {
     font-size: 22;
-    font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
 }
+
+#project {
+    font-weight: 100;
+    }
 
 h2 {
     font-weight: 100;

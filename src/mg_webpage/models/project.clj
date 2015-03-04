@@ -13,12 +13,14 @@
           [:ul.projects
            [:li.project
             [:a.link {:href "http://alarmtube.marissagrove.com"} "Alarmtube-JS"]
-            [:h3 "An alarm that plays YouTube videos when the alarm is triggered. Written in JavaScript."]]
+            [:p#project "An alarm that plays YouTube videos when the alarm is triggered. Written in JavaScript."]]
+           [:br]
            [:li.project
             [:a.link {:href "http://alarmtube.marissagrove.com"} "Alarmtube-CLJS"]
-            [:h3 "An alarm that plays YouTube videos when the alarm is triggered. Written in ClojureScript."]]
+            [:p#project "An alarm that plays YouTube videos when the alarm is triggered. Written in ClojureScript."]]
+           [:br]
            [:li.project
             [:a.link
              {:href "http://findaplace.marissagrove.com"}
              "Find a Place"]
-            [:h3 "Platform for rating and reviewing businesses. Written in Python."]]]]]))
+            [:p#project "Platform for rating and reviewing businesses. Written in Python."]]]]]))

@@ -26,6 +26,6 @@
          [:body
           common/navbar
           [:img.bgimg {:src "/img/blogimage.jpg"}]
-          [:h1.entry-title "Javascript to Clojurescript "]
-          [:p.entry-details "An early personal project I wrote while first learning to code was an alarm clock that played YouTube videos when triggered. I wrote Alarmtube in Javascript, and borrowed the initial alarm code from JavaScriptKit. The YouTube API was friendly enough to maneuver for a beginner. Since then I’ve mainly been using only Clojure and Clojurescript, so I thought I’d go back and rewrite this previous project in ClojureScript as well as Om and Hiccup. "]
+          [:h1.entry-title "JS to CLJS"]
+          [:p.entry-details "An early personal project I wrote while first learning to code was an alarm clock that played YouTube videos when triggered. I wrote Alarmtube in Javascript, and borrowed the initial alarm code from JavaScriptKit. The YouTube API was friendly enough to maneuver for a beginner. Since then I’ve mainly been using only Clojure/Clojurescript, so I thought I’d go back and rewrite this previous project in ClojureScript with  Om and Hiccup. "]
           [:div.main-content]]]))
