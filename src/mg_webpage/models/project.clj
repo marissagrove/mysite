@@ -10,24 +10,15 @@
          [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
          [:body
           common/navbar
-          [:div.thumbnail-container
-           [:div.alarmtube
-            [:a
-             {:href "http://alarmtube.marissagrove.com"}
-             [:img
-              {:height "200",
-               :width "300",
-               :alt "",
-               :src "img/alarm.png"}]]
-            [:br]
-            [:a.link {:href "http://alarmtube.marissagrove.com"} "Alarmtube"]
-            " \n\t\t"]
-           [:div.findaplace
-            [:a
-             {:href "http://findaplace.marissagrove.com"}
-             [:img
-              {:height "200", :width "300", :alt "", :src "img/find.png"}]]
-            [:br]
+          [:ul.projects
+           [:li.project
+            [:a.link {:href "http://alarmtube.marissagrove.com"} "Alarmtube-JS"]
+            [:h3 "An alarm that plays YouTube videos when the alarm is triggered. Written in JavaScript."]]
+           [:li.project
+            [:a.link {:href "http://alarmtube.marissagrove.com"} "Alarmtube-CLJS"]
+            [:h3 "An alarm that plays YouTube videos when the alarm is triggered. Written in ClojureScript."]]
+           [:li.project
             [:a.link
              {:href "http://findaplace.marissagrove.com"}
-             "Find a Place"]]]]]))
+             "Find a Place"]
+            [:h3 "Platform for rating and reviewing businesses. Written in Python."]]]]]))

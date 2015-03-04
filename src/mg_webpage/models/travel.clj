@@ -21,18 +21,18 @@
                                         ;(travel-image "london.png" "United Kingdom" "/travels/london")
                                         ;          [:h2.place-title "Africa"]
           [:div.places
+           [:img#africa.place-image {:src "/img/africa-travels.jpg"}]
            [:h2.place-title "Africa"]
-           [:img.place-image {:src "/img/africa-travels.jpg", :width "100%"}]
-           [:h2.place-title "Europe"]
-           [:img.place-image {:src "/img/europe-travels.jpg", :width "100%"}]
-           [:h2.place-title "Great Britain"]
-           [:img.place-image {:src "/img/uk-travels.jpg", :width "100%"}]
-           [:h2.place-title "Japan"]
-           [:img.place-image {:src "/img/japan-travels.jpg", :width "100%"}]
-           [:h2.place-title "Jordan"]
-           [:img.place-image {:src "/img/jordan-travels.jpg", :width "100%"}]
-           [:h2.place-title "Canada"]
-           [:img.place-image {:src "/img/canada-travels.jpg", :width "100%"}]]]]))
+           [:img.place-image {:src "/img/canada-travels.jpg"}
+            [:h2.place-title "Canada"]]
+           [:img.place-image {:src "/img/europe-travels.jpg"}
+            [:h2.place-title "Europe"]]
+           [:img.place-image {:src "/img/uk-travels.jpg"}
+            [:h2.place-title "Great Britain"]]
+           [:img.place-image {:src "/img/japan-travels.jpg"}
+            [:h2.place-title "Japan"]]
+           [:img.place-image {:src "/img/jordan-travels.jpg"}
+            [:h2.place-title "Jordan"]]]]]))
 
 (def travel-data
   {"london" {:title "London"

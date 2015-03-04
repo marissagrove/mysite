@@ -9,5 +9,5 @@
      [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
     [:body common/navbar
-     [:img {:src "/img/jordan.jpg" :height "35%" :width "100%"}]
+     [:img.hmimg {:src "/img/jordan.jpg"}]
      body]))

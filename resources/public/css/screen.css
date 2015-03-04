@@ -4,6 +4,18 @@ body {
     font-size: 13px;
 }
 
+.navbar {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    }
+
+.hmimg {
+    margin-left: 26%;
+    width: 50%;
+    margin-top: inherit;
+    }
+
 .title {
     text-align: center;
     letter-spacing: 6px;
@@ -16,6 +28,7 @@ body {
 
 .social-container {
     float: right;
+    margin-top: 6px;
     }
 
 .social-media {
@@ -102,6 +115,7 @@ a {
 .left {
     float: left;
     margin-left: -36px;
+    margin-top: 9px;
     }
 
 .center {
@@ -123,13 +137,25 @@ a {
     padding-right: 15px;
     }
 
-.alarmtube {
-    float: left;
+a {
+    color: black;
     }
 
-.findaplace {
-    float: right;
+h3 {
+    font-weight: 100;
+    font-size: 20;
     }
+
+.projects {
+    list-style: none;
+    }
+
+.project {
+    font-size: 22;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
 
 h2 {
     font-weight: 100;
@@ -138,30 +164,32 @@ h2 {
     text-align: center;
     }
 
-.place-title {
-    cursor: pointer;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s;
+h1 {
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2;
+    }
+
+.bgimg {
+    width: 100%;
+    height: 35%;
+    margin-top: inherit;
+    }
+
+.entry-details {
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+    letter-spacing: 2;
+    margin: 0 25% 0 25%;
+}
+
+#africa {
+    margin-top: 10px;
     }
 
 .place-image {
-    display: none;
-    -webkit-transiton: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
-    }
-
-.place-title:hover {
-    visibility: visible;
-    }
-
-.place-title:hover .place-image {
-    display: block;
-    opacity: 1;
-    visibility: visible;
+    width: 100%;
+    height: 50%;
     }

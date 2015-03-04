@@ -3,7 +3,6 @@
 (def navbar
   (list
    [:div.navbar
-    [:hr]
     [:div.left
      [:ul.directory
       [:li.directory-item [:a {:href "/projects"} "Projects"]]
@@ -15,6 +14,9 @@
        [:ul.social-items
         [:li#twitter.social-item
          [:a.media {:target "_blank"
+                    :href "https://github.com/marissagrove"} "GitHub"]]
+        [:li#twitter.social-item
+         [:a.media {:target "_blank"
                     :href "https://twitter.com/MarissaGrove"} "Twitter"]]
         [:li#instagram.social-item
          [:a.media {:target "_blank"
@@ -22,5 +24,4 @@
         [:li#pinterest.social-item
          [:a.media {:target "_blank"
                     :href "http://pinterest.com/marissagrove"} "Pinterest"]]]]]]
-    [:h1.title [:a {:href "/"} "MARISSA"]]
-    [:hr]]))
+    [:h1.title [:a {:href "/"} "MARISSA"]]]))
