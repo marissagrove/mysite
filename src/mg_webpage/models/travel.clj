@@ -21,17 +21,17 @@
                                         ;(travel-image "london.png" "United Kingdom" "/travels/london")
                                         ;          [:h2.place-title "Africa"]
           [:div.places
-           [:img#africa.place-image {:src "/img/africa-travels.jpg"}]
+           [:img#africa.place-image {:src "/img/africa_travels.jpg"}]
            [:h2.place-title "Africa"]
-           [:img.place-image {:src "/img/canada-travels.jpg"}
+           [:img.place-image {:src "/img/canada_travels.jpg"}
             [:h2.place-title "Canada"]]
-           [:img.place-image {:src "/img/europe-travels.jpg"}
+           [:img.place-image {:src "/img/europe_travels.jpg"}
             [:h2.place-title "Europe"]]
-           [:img.place-image {:src "/img/uk-travels.jpg"}
+           [:img.place-image {:src "/img/uk_travels.jpg"}
             [:h2.place-title "Great Britain"]]
-           [:img.place-image {:src "/img/japan-travels.jpg"}
+           [:img.place-image {:src "/img/japan_travels.jpg"}
             [:h2.place-title "Japan"]]
-           [:img.place-image {:src "/img/jordan-travels.jpg"}
+           [:img.place-image {:src "/img/jordan_travels.jpg"}
             [:h2.place-title "Jordan"]]]]]))
 
 (def travel-data
