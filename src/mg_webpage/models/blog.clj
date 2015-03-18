@@ -36,7 +36,7 @@
            "The original travel page consisted of thumbnails for each country I've traveled to. Now they are grouped by region, reducing the images on the travel page from 14 to 6, and the images are now at 100% width. Each title is a link to a comprehensive image page of photos from that region. The projects page was also thumbnails with the project name underneath, which is pretty vague. Now you can find a short description of each project and which languages/libraries/framework I used to write them. My blog page didn't have much going on, just a large image that took up most of the page. It's now been replaced by a much smaller image so you can see the most recent post without having to scroll down."
            [:br]
            [:br]
-           "Nothing drastic, but it now looks more organized and up-to-date!"]
+           "Nothing drastic and still a work in progress, but it now looks more organized and up-to-date!"]
           [:div#slideshowbg
            [:div#left "<"]
            [:div#right ">"]
