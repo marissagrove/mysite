@@ -177,6 +177,35 @@ h1 {
     height: 35%;
     }
 
+#slideshowbg {
+    width: 520px;
+    margin: 0 auto;
+    margin-top: inherit;
+    overflow: hidden;
+    position: relative;
+	}
+
+#slideshowbg ul {
+    width: 2000px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: margin-left 2s;
+    -webkit-transition: margin-left 2s;
+    -moz-transition: margin-left 2s;
+    -o-transition: margin-left 2s;
+	}
+
+#slideshowbg ul li {
+    float: left;
+    width: 500px;
+	}
+
+.blgimg {
+    width: 520px;
+    height: 450px;
+}
+
 .entry-details {
     font-size: 18px;
     color: black;
