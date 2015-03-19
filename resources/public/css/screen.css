@@ -172,6 +172,13 @@ h1 {
     letter-spacing: 2;
     }
 
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3px;
+    }
+
 .bgimg {
     width: 100%;
     height: 35%;
