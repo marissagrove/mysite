@@ -14,5 +14,4 @@
   (GET "/travels" [] travel/travels-page)
   (GET "/blog" [] blog/blog-page)
   (GET "/travels/:name" [name] (travel/travel-page (get travel/place-data name)))
-  ;; (GET "/blog/:name" [name] (blog/post-page (get blog/blog-data name)))
-  )
+  (GET "/blog/:name" [name] (blog/post-page (get blog/blog-data name))))

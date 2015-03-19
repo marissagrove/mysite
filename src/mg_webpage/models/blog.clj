@@ -10,13 +10,13 @@
 (defn make-slug [string]
   (clojure.string/lower-case (clojure.string/replace string #"[^a-z0-9A-Z]" "_")))
 
-(defn post-page [place-data]
+(defn post-page [blog-data]
   (html [:html
          ;base/head
          [:body
           common/navbar
-          [:h1 (get place-data :title)]
-          [:p (get place-data :description)]]]))
+          [:h1 (get blog-data :title)]
+          [:p (get blog-data :description)]]]))
 
 (def blog-page
   (html [:html
