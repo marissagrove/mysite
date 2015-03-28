@@ -9,4 +9,8 @@
           common/navbar
           [:h2.highlighter  [:span.titles [:span.bar] "Germany"]]
           [:p ""]
-          [:img {:src ""}]]]))
+          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin1.jpg"}]
+          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin2.jpg"}]
+          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin3.jpg"}]
+          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin4.jpg"}]
+          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin5.jpg"}]]]))
