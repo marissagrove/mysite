@@ -10,8 +10,8 @@
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
     [:body common/navbar
      [:div#slideshow
-      [:div#left "<"]
-      [:div#right ">"]
+     ; [:div#left "<"]
+     ; [:div#right ">"]
       [:ul.cf
        [:li [:img.hmimg {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/jordan.jpg"}]]
        [:li [:img.hmimg {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/jordan2.jpg"}]]

@@ -39,8 +39,8 @@
            [:br]
            "Nothing drastic and still a work in progress, but it now looks more organized and up-to-date!"]
           [:div#slideshowbg
-           [:div#left "<"]
-           [:div#right ">"]
+          ; [:div#left "<"]
+          ; [:div#right ">"]
            [:ul.cf
             [:li [:img.blgimg {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/originalsite1.png"}]]
             [:li [:img.blgimg {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/originalsite2.png"}]]
