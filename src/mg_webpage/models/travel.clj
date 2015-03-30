@@ -59,22 +59,22 @@
           [:div.center
            [:a {:href "europe-regions/austria"}
             [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Austria"]]
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austriamap.png"}]] [:span.titles "Austria"]]
            [:a {:href "europe-regions/croatia"}
             [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Croatia"]]
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatiamap.png"}]] [:span.titles "Croatia"]]
            [:a {:href "europe-regions/france"}
             [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris1.jpg"}]] [:span.titles "France"]]
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/francemap.png"}]] [:span.titles "France"]]
            [:a {:href "europe-regions/germany"}
             [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Germany"]]
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/germanymap.png"}]] [:span.titles "Germany"]]
            [:a {:href "europe-regions/italy"}
             [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Italy"]]
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/italymap.png"}]] [:span.titles "Italy"]]
            [:a {:href "europe-regions/spain"}
             [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain1.jpg"}]] [:span.titles "Spain"]]]
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spainmap.png"}]] [:span.titles "Spain"]]]
           [:p ""]]]))
 
 (def uk-regions
