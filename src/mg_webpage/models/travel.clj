@@ -4,12 +4,11 @@
 
 (defn travels-image [src text destination]
   [:div.center
-   [:div.overlay
-    [:img.direct-image
-     {:alt "",
-      :src src}]]
-   [:div.place
-    [:a.place-title {:href destination} text]]])
+   [:a.place-title {:href destination}
+    [:div.overlay
+     [:img.direct-image
+      {:alt "",
+       :src src}]] text]])
 
 (def travels-page
   (html [:html
