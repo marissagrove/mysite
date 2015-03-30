@@ -248,6 +248,21 @@ video {
     margin-top: 10px;
     }
 
+.direct-image {
+    width: 85%;
+    height: 40%;
+    margin-top: 10px;
+    }
+
+.overlay .direct-image {
+    position: relative;
+    background-color: rgba(0,0,0,0.65);
+    }
+
+.overlay .direct-image:hover {
+    opacity:0.5;
+    }
+
 .images {
     width: 33%;
     }

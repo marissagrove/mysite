@@ -3,10 +3,11 @@
   (:require [mg-webpage.models.common :as common]))
 
 (defn travels-image [src text destination]
-  [:div.places
-   [:img.place-image
-    {:alt "",
-     :src src}]
+  [:div.center
+   [:div.overlay
+    [:img.direct-image
+     {:alt "",
+      :src src}]]
    [:div.place
     [:a.place-title {:href destination} text]]])
 
@@ -42,10 +43,13 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "africa-regions/south-africa"} [:div.place [:span.titles "South Africa"]]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]          
-          [:a {:href "africa-regions/tanzania"} [:div.place [:span.titles "Tanzania"]]]          
+          [:div.center
+           [:a {:href "africa-regions/south-africa"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/samap.png"}]] [:span.titles "South Africa"]]
+           [:a {:href "africa-regions/tanzania"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tanzaniamap.png"}]] [:span.titles "Tanzania"]]]          
           [:p ""]]]))
 
 (def europe-regions
@@ -53,18 +57,25 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "europe-regions/austria"} [:span.titles "Austria"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "europe-regions/croatia"} [:span.titles "Croatia"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris1.jpg"}]
-          [:a {:href "europe-regions/france"} [:span.titles "France"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "europe-regions/germany"} [:span.titles "Germany"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "europe-regions/italy"} [:span.titles "Italy"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain1.jpg"}]
-          [:a {:href "europe-regions/spain"} [:span.titles "Spain"]]
+          [:div.center
+           [:a {:href "europe-regions/austria"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Austria"]]
+           [:a {:href "europe-regions/croatia"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Croatia"]]
+           [:a {:href "europe-regions/france"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris1.jpg"}]] [:span.titles "France"]]
+           [:a {:href "europe-regions/germany"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Germany"]]
+           [:a {:href "europe-regions/italy"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]] [:span.titles "Italy"]]
+           [:a {:href "europe-regions/spain"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain1.jpg"}]] [:span.titles "Spain"]]]
           [:p ""]]]))
 
 (def uk-regions
@@ -72,10 +83,13 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "uk-regions/england"} [:span.titles "England"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "uk-regions/scotland"} [:span.titles "Scotland"]]
+          [:div.center
+           [:a {:href "uk-regions/england"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/englandmap.png"}]] [:span.titles "England"]]
+           [:a {:href "uk-regions/scotland"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotlandmap.png"}]] [:span.titles "Scotland"]]]
           [:p ""]]]))
 
 (def japan-regions
@@ -83,10 +97,14 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "japan-regions/osaka"} [:span.titles "Osaka"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "japan-regions/kyoto"} [:span.titles "Kyoto"]]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:a {:href "japan-regions/tokyo"} [:span.titles "Tokyo"]]
+          [:div.center
+           [:a {:href "japan-regions/osaka"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osakamap.png"}]] [:span.titles "Osaka"]]
+           [:a {:href "japan-regions/kyoto"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/kyotomap.png"}]] [:span.titles "Kyoto"]]
+           [:a {:href "japan-regions/tokyo"}
+            [:div.overlay
+             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyomap.png"}]] [:span.titles "Tokyo"]]]
           [:p ""]]]))
