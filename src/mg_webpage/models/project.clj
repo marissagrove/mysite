@@ -16,7 +16,7 @@
             [:p#project "An alarm that plays YouTube videos when the alarm is triggered. Written in JavaScript."]]
            [:br]
            [:li.project
-            [:a.link {:href "http://alarmtube.marissagrove.com"} "Alarmtube-CLJS"]
+            [:a.link {:href "http://cljsalarmtube.marissagrove.com"} "Alarmtube-CLJS"]
             [:p#project "An alarm that plays YouTube videos when the alarm is triggered. Written in ClojureScript."]]
            [:br]
            [:li.project
