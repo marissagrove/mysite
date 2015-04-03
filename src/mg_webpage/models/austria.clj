@@ -37,7 +37,6 @@
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria35.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria36.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria37.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria38.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria39.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria40.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria41.jpg"}]
@@ -52,8 +51,6 @@
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria52.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria54.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria10.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria56.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria11.jpg"}]
           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria57.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria58.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria59.jpg"}]]]))
+          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria58.jpg"}]]]))

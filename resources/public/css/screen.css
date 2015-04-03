@@ -125,6 +125,8 @@ a {
     font-size: 15px;
     color: black;
     font-weight: 100;
+    font-variant: small-caps;
+    letter-spacing: 1px;
     }
 
 .directory-item {
@@ -152,6 +154,16 @@ h3 {
 
 #project {
     font-weight: 100;
+    }
+
+.sidea {
+    float: left;
+    width: 50%;
+    }
+
+.sideb {
+    float: right;
+    width: 50%;
     }
 
 .place-title {
@@ -249,9 +261,106 @@ video {
     }
 
 .direct-image {
-    width: 85%;
-    height: 40%;
+    width: 60%;
+    height: 30%;
     margin-top: 10px;
+    } 
+
+.euro-direct {
+    float: right;
+    }
+
+.two-img-row {
+    width: 80%;
+    }
+
+.vert-box {
+    width: 50%;
+    }
+
+.horz-box {
+    width: 50%;
+    }
+
+.half {
+    width: 96%;
+    margin-bottom: .5rem;
+    }
+
+.half-right {
+    float: right;
+    width: 96%;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    }
+
+.thirds {
+    width: 83.6%;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    }
+
+.thirds-right {
+    float: right;
+    width: 83.6%;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    }
+
+.vert {
+    height: 100%;
+    float: right;
+    }
+
+.vert-mid {
+    height: 80%;
+    margin-bottom: .5rem;
+      }
+
+.vert-mids {
+    height: 80%;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
+    }
+    
+.vert-mid-right {
+    height: 80%;
+    float: right;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+      }
+
+.vert-mid-rights {
+    height: 96.7%;
+    float: right;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+      }
+
+.vert-left {
+    height: 84.4%;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    }
+
+.vert-right {
+    height: 84.4%;
+    margin-bottom: .5rem;
+      }
+
+.single {
+    width: 70%;
+    margin-bottom: .5rem;
+    }
+
+.right {
+    float: right;
+    width: 50%;
+    }
+
+.img-left {
+    float: left;
+    width: 50%;
     }
 
 .overlay .direct-image:hover {

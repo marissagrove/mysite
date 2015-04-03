@@ -43,12 +43,14 @@
          [:body
           common/navbar
           [:div.center
-           [:a {:href "africa-regions/south-africa"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/samap.png"}]] [:span.titles "South Africa"]]
-           [:a {:href "africa-regions/tanzania"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tanzaniamap.png"}]] [:span.titles "Tanzania"]]]          
+           [:div.sidea
+            [:a {:href "africa-regions/south-africa"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "South Africa"]]]
+           [:div.sideb
+            [:a {:href "africa-regions/tanzania"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Tanzania"]]]]          
           [:p ""]]]))
 
 (def europe-regions
@@ -57,24 +59,30 @@
          [:body
           common/navbar
           [:div.center
-           [:a {:href "europe-regions/austria"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austriamap.png"}]] [:span.titles "Austria"]]
-           [:a {:href "europe-regions/croatia"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatiamap.png"}]] [:span.titles "Croatia"]]
-           [:a {:href "europe-regions/france"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/francemap.png"}]] [:span.titles "France"]]
-           [:a {:href "europe-regions/germany"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/germanymap.png"}]] [:span.titles "Germany"]]
-           [:a {:href "europe-regions/italy"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/italymap.png"}]] [:span.titles "Italy"]]
-           [:a {:href "europe-regions/spain"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spainmap.png"}]] [:span.titles "Spain"]]]
+           [:div.sidea
+            [:a {:href "europe-regions/austria"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Austria"]]]
+           [:div.sideb
+            [:a {:href "europe-regions/croatia"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Croatia"]]]
+           [:div.sidea
+            [:a {:href "europe-regions/france"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "France"]]]
+           [:div.sideb
+            [:a {:href "europe-regions/germany"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Germany"]]]
+           [:div.sidea
+            [:a {:href "europe-regions/italy"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Italy"]]]
+           [:div.sideb
+            [:a {:href "europe-regions/spain"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Spain"]]]]
           [:p ""]]]))
 
 (def uk-regions
@@ -83,12 +91,14 @@
          [:body
           common/navbar
           [:div.center
-           [:a {:href "uk-regions/england"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/englandmap.png"}]] [:span.titles "England"]]
-           [:a {:href "uk-regions/scotland"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotlandmap.png"}]] [:span.titles "Scotland"]]]
+           [:div.sidea
+            [:a {:href "uk-regions/england"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "England"]]]
+           [:div.sideb
+            [:a {:href "uk-regions/scotland"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Scotland"]]]]
           [:p ""]]]))
 
 (def japan-regions
@@ -97,13 +107,15 @@
          [:body
           common/navbar
           [:div.center
-           [:a {:href "japan-regions/osaka"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osakamap.png"}]] [:span.titles "Osaka"]]
-           [:a {:href "japan-regions/kyoto"}
-            [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/kyotomap.png"}]] [:span.titles "Kyoto"]]
+           [:div.sidea
+            [:a {:href "japan-regions/osaka"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Osaka"]]]
+           [:div.sideb
+            [:a {:href "japan-regions/kyoto"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Kyoto"]]]
            [:a {:href "japan-regions/tokyo"}
             [:div.overlay
-             [:img.direct-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyomap.png"}]] [:span.titles "Tokyo"]]]
+             [:img.direct-image {:src ""}]] [:span.titles "Tokyo"]]]
           [:p ""]]]))
