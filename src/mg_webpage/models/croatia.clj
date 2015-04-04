@@ -45,7 +45,7 @@
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia25.jpg"}]]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia28.jpg"}]
-           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia29.jpg"}]]
+           [:video.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia-bells.mov"}]]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia27.jpg"}]]
           [:div.center

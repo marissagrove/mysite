@@ -28,9 +28,11 @@
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo9.jpg"}]]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo10.jpg"}]
+           [:video.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/harajuku.mov"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo11.jpg"}]]
           [:div.center
-           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo12.jpg"}]]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo12.jpg"}]
+           [:video.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/japancoffee.mov"}]]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo15.jpg"}]]
           [:div.center
