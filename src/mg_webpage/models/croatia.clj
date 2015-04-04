@@ -20,6 +20,7 @@
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia38.jpg"}]]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia40.jpg"}]
+           [:video.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/split_bells.mov"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia42.jpg"}]]
           [:div.img-left
            [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia43.jpg"}]]
@@ -43,6 +44,8 @@
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia24.jpg"}]]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia25.jpg"}]]
+          [:center
+           [:video.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/brac.mov"}]]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia28.jpg"}]
            [:video.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia-bells.mov"}]]

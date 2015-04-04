@@ -19,7 +19,7 @@
           [:div.right
            [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris4.jpg"}]]
           [:div.center
-           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris8.jpg"}]
+           [:video.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris_rain.mov"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris6.jpg"}]]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris7.jpg"}]]
@@ -37,7 +37,9 @@
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris16.jpg"}]]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris17.jpg"}]
-           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris18.jpg"}]
+           [:video.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/running.mov"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris18.jpg"}]]
+          [:div.center
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris21.jpg"}]]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris25.jpg"}]]
@@ -127,6 +129,7 @@
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france149.jpg"}]]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france150.jpg"}]
+           [:video.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/notredame.mov"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france151.jpg"}]]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france158.jpg"}]
