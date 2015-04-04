@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2.highlighter  [:span.titles [:span.bar] "Osaka"]]
+          [:h2 [:span.titles "Osaka"]]
           [:div.center
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka4.jpg"}]]
           [:div.center
@@ -20,12 +20,10 @@
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka6.jpg"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka7.jpg"}]]
           [:div.center
-           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka8.jpg"}]]
-          [:div
-           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka9.jpg"}]]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka8.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka9.jpg"}]]
           [:div.center
-           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka10.jpg"}]]
-          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka10.jpg"}]
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka11.jpg"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka12.jpg"}]]
           [:div.center

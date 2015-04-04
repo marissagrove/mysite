@@ -7,29 +7,40 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2.highlighter  [:span.titles [:span.bar] "Scotland"]]
-          [:p ""]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland1.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland2.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland3.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland4.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland5.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland6.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland7.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland8.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland9.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland10.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland11.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland12.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland13.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland14.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland15.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland16.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland17.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland18.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland19.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland20.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland21.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland22.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland23.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland24.jpg"}]]]))
+          [:h2 [:span.titles "Scotland"]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland2.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland4.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland3.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland5.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland6.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland7.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland8.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland9.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland10.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland11.jpg"}]]
+          [:div.center
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland12.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland14.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland15.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland17.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland20.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland21.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland22.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland23.jpg"}]]
+          [:div.center
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland24.jpg"}]]]]))
+

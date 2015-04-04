@@ -14,9 +14,9 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2.highlighter  [:span.titles [:span.bar] "Jordan"]]
+          [:h2 [:span.titles "Jordan"]]
           [:div.center
-           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/jordan6.jpg"}]]
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/jordan6.jpg"}]]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/jordan14.jpg"}]]
           [:div.center

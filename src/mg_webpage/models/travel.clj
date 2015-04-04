@@ -98,8 +98,7 @@
            [:div.sideb
             [:a {:href "uk-regions/scotland"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Scotland"]]]]
-          [:p ""]]]))
+              [:img.direct-image {:src ""}]] [:span.titles "Scotland"]]]]]]))
 
 (def japan-regions
   (html [:html
@@ -115,7 +114,7 @@
             [:a {:href "japan-regions/kyoto"}
              [:div.overlay
               [:img.direct-image {:src ""}]] [:span.titles "Kyoto"]]]
-           [:a {:href "japan-regions/tokyo"}
-            [:div.overlay
-             [:img.direct-image {:src ""}]] [:span.titles "Tokyo"]]]
-          [:p ""]]]))
+           [:div.sidea
+            [:a {:href "japan-regions/tokyo"}
+             [:div.overlay
+              [:img.direct-image {:src ""}]] [:span.titles "Tokyo"]]]]]]))

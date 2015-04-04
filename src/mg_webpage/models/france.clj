@@ -7,117 +7,158 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2.highlighter [:span.titles [:span.bar] "France"]]
-          [:p ""]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris1.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris2.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris4.jpg"}]
-           [:div.h-angle
-           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris8.jpg"}]]
-          [:div.h-angle
-           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris6.jpg"}]]
-           [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris7.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris10.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris11.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris12.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris13.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris15.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris16.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris17.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris18.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris19.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris21.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "food"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris34.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris5.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris22.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris23.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris24.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris25.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris27.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris28.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris32.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris35.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france142.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france129.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france132.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "Town"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris36.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris37.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris38.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris39.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "Versailles"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris41.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris42.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris45.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris47.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris50.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris51.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris52.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris54.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris55.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris56.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris57.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris58.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris59.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris61.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris62.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris63.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris64.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris65.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris66.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris67.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris68.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris69.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris70.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris72.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris74.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris76.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris77.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris78.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris79.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "Tower"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france146.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france148.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris80.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris81.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris82.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "Notre Dame"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france149.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france150.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france151.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france155.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france158.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france160.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france153.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france133.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france162.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france138.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france139.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france140.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "Louvre"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france86.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france92.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france93.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france95.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france130.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france164.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france165.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france90.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france91.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france109.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france125.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france126.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france128.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france135.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france136.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france137.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france141.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france143.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france144.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france152.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france156.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france157.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france163.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france166.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france167.jpg"}]]]))
+          [:h2 [:span.titles "France"]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france138.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france139.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france140.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris1.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris2.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris4.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris8.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris6.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris7.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris10.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris11.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris12.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris13.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris19.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris15.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris16.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris17.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris18.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris21.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris25.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris34.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris5.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris22.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris23.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris24.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris27.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris28.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris32.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris35.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france132.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france142.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france129.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris36.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris37.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris38.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris39.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris41.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris42.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris45.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris47.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris50.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris51.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris54.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris55.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris57.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris58.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris59.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris61.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris62.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris63.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris64.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris65.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris66.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris67.jpg"}]]
+          [:div.center
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris70.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris72.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris69.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris74.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris78.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris79.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france146.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france148.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris80.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris81.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/paris82.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france149.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france150.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france151.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france158.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france160.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france162.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france130.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france164.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france165.jpg"}]]
+          [:div.center
+           [:img.vert-mid{:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france90.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france91.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france125.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france126.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france136.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france137.jpg"}]]
+          [:div.center
+           [:img.single{:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france135.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france141.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france144.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france152.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france156.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france157.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france163.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france166.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france167.jpg"}]]]]))
+

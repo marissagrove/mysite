@@ -13,15 +13,17 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2.highlighter  [:span.titles [:span.bar] "Spain"]]
-          [:p ""]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain1.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain11.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain3.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain2.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain5.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain6.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain7.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain8.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain9.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain10.jpg"}]]]))
+          [:h2 [:span.titles "Spain"]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain1.jpg"}]]
+          [:div.center
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain11.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain3.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain2.jpg"}]]
+          [:div.center
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain5.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain8.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/spain10.jpg"}]]]]))
+

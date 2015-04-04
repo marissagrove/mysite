@@ -7,61 +7,88 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2.highlighter  [:span.titles [:span.bar] "Croatia"]]
-          [:p ""]
-          [:img.place-image {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia1.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "Split"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia3.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia4.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia35.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia36.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia38.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia40.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia41.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia42.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia43.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia44.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia45.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "Brač"]]
-          [:Img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia5.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia6.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia7.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia8.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia9.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia10.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia11.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia12.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia14.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia24.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia25.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia27.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia28.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia29.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia30.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia31.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia34.jpg"}]
-          [:h2.highlighter [:span.titles [:span.bar] "dubrovnik"]]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia46.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia67.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia68.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia71.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia73.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia75.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia77.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia78.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia79.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia80.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia81.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia82.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia84.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia85.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia87.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia91.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia94.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia95.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia97.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia98.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia99.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia101.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia102.jpg"}]
-          [:img.images {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia104.jpg"}]]]))
+          [:h2 [:span.titles "Croatia"]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia3.jpg"}]]
+          [:div.center
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia4.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia35.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia36.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia38.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia40.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia42.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia43.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia44.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia45.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia7.jpg"}]]
+          [:div.center
+           [:Img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia5.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia6.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia8.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia9.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia10.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia12.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia11.jpg"}]
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia14.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia24.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia25.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia28.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia29.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia27.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia31.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia30.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia34.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia46.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia73.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia67.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia68.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia71.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia75.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia77.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia78.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia79.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia80.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia81.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia99.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia82.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia84.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia91.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia94.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia87.jpg"}]]
+          [:div.center
+           [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia95.jpg"}]
+           [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia97.jpg"}]]
+          [:div.center
+           [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia101.jpg"}]]
+          [:div.img-left
+           [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia102.jpg"}]]
+          [:div.right
+           [:img.half {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia104.jpg"}]]]]))

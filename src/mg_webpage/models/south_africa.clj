@@ -7,13 +7,14 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2.highlighter  [:span.titles [:span.bar] "South Africa"]]
-          [:div.img-left
-           [:img.vert {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa1.jpg"}]]
-          [:div.right
-           [:img.thirds {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa11.jpg"}]]
-          [:div.right
-           [:img.thirds {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa15.jpg"}]]
+          [:h2  [:span.titles "South Africa"]]
+          [:div
+           [:dig.img-left
+            [:img.vert-thirds {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa1.jpg"}]]
+           [:div.right
+            [:img.thirds {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa11.jpg"}]]
+           [:div.right
+            [:img.thirds {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa15.jpg"}]]]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa25.jpg"}]]
           [:div.center
