@@ -46,11 +46,11 @@
            [:div.sidea
             [:a {:href "africa-regions/south-africa"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "South Africa"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "South Africa"]]]
            [:div.sideb
             [:a {:href "africa-regions/tanzania"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Tanzania"]]]]          
+              [:img.direct-image {:src ""}]] [:h1.titles "Tanzania"]]]]          
           [:p ""]]]))
 
 (def europe-regions
@@ -62,27 +62,27 @@
            [:div.sidea
             [:a {:href "europe-regions/austria"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Austria"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "Austria"]]]
            [:div.sideb
             [:a {:href "europe-regions/croatia"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Croatia"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "Croatia"]]]
            [:div.sidea
             [:a {:href "europe-regions/france"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "France"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "France"]]]
            [:div.sideb
             [:a {:href "europe-regions/germany"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Germany"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "Germany"]]]
            [:div.sidea
             [:a {:href "europe-regions/italy"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Italy"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "Italy"]]]
            [:div.sideb
             [:a {:href "europe-regions/spain"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Spain"]]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "Spain"]]]]
           [:p ""]]]))
 
 (def uk-regions
@@ -94,11 +94,11 @@
            [:div.sidea
             [:a {:href "uk-regions/england"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "England"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "England"]]]
            [:div.sideb
             [:a {:href "uk-regions/scotland"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Scotland"]]]]]]))
+              [:img.direct-image {:src ""}]] [:h1.titles "Scotland"]]]]]]))
 
 (def japan-regions
   (html [:html
@@ -109,12 +109,12 @@
            [:div.sidea
             [:a {:href "japan-regions/osaka"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Osaka"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "Osaka"]]]
            [:div.sideb
             [:a {:href "japan-regions/kyoto"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Kyoto"]]]
+              [:img.direct-image {:src ""}]] [:h1.titles "Kyoto"]]]
            [:div.sidea
             [:a {:href "japan-regions/tokyo"}
              [:div.overlay
-              [:img.direct-image {:src ""}]] [:span.titles "Tokyo"]]]]]]))
+              [:img.direct-image {:src ""}]] [:h1.titles "Tokyo"]]]]]]))

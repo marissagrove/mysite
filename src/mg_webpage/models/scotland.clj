@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2 [:span.titles "Scotland"]]
+          [:h2.titles "Scotland"]
           [:div.center
            [:img.single {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland2.jpg"}]]
           [:div.center

@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2  [:span.titles "Austria"]]
+          [:h2.titles "Austria"]
           [:div.img-left
            [:img.half-right {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/austria24.jpg"}]]
           [:div.right

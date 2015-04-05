@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2 [:span.titles "France"]]
+          [:h2.titles "France"]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france138.jpg"}]
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/france139.jpg"}]

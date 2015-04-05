@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2 [:span.titles "Italy"]]
+          [:h2.titles "Italy"]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/italy2.jpg"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/italy5.jpg"}]]

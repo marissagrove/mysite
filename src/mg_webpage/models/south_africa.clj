@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2  [:span.titles "South Africa"]]
+          [:h2.titles "South Africa"]
           [:div
            [:dig.img-left
             [:img.vert-thirds {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/sa1.jpg"}]]

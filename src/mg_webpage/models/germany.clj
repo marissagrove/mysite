@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2  [:span.titles "Germany"]]
+          [:h2.titles "Germany"]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin1.jpg"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin3.jpg"}]]

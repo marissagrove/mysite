@@ -13,7 +13,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2  [:span.titles "Canada"]]
+          [:h2.titles "Canada"]
           [:div.center
            [:img.vert-mids {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/canada22.jpg"}]
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/canada20.jpg"}]]

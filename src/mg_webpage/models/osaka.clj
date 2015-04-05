@@ -7,7 +7,7 @@
          [:head [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]]
          [:body
           common/navbar
-          [:h2 [:span.titles "Osaka"]]
+          [:h2.titles "Osaka"]
           [:div.center
            [:img.vert-mid {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka4.jpg"}]]
           [:div.center
