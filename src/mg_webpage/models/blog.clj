@@ -27,7 +27,7 @@
          [:body
           common/navbar
           [:img.bgimg {:src "https://s3-us-west-1.amazonaws.com/mgsite-media/blog_image.jpg"}]
-          [:h1.entry-title "Site Redesign"]
+          [:h1 "Site Redesign"]
           [:p.entry-details "About a year ago I put up my personal site. A place to post my projects, photos from travels, and maybe a blog. My personal taste tends to lean toward clean and simple, so when I decided to redesign my site I didn't change anything too drastically, just made it more efficient."
            [:br]
            [:br]
