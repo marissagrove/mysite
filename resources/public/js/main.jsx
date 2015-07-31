@@ -679,7 +679,7 @@ dable codebase, and who wouldn’t want that. React’s reusable components have
 me programmers don’t want to deal with all the tedious repetition building a blog can bring about, so they’d rather use Wordpress\
  etc. These are simple to set up and gets the job done well. However I like having everything be my own, and with React I don’t h\
 ave to cringe when I look at my blog code. I store all my blog data in one variable called blogPosts and then pass it to the comp\
-onent to render it, and when I want to add more posts I just have to add another to blogPosts and the React component will render\
+onent to render it, and when I'm ready to post again I just add another hashmap of keys to my vector of blog posts and the React component will render\
  it. It is a night and day change from how repetitive and messy my previous attempts at building a blog were. Kind of a trailing \
 thought, but React got me thinking about all the innovations in programming, there’s always something new to learn and work on. I\
 ’m so impressed with all the ideas that come out of this community. I meet a lot of programmers and in times past I’d feel bored \
