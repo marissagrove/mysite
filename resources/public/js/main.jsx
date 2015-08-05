@@ -764,10 +764,3 @@ React.render(
 </div>,
 document.getElementById('content')
 );
-
-
-/* var exports = {
-    ContinentsHandler: ContinentsPage
-}
-export default exports
-*/
