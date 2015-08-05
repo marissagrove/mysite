@@ -766,8 +766,8 @@ document.getElementById('content')
 );
 
 
-var exports = {
+/* var exports = {
     ContinentsHandler: ContinentsPage
 }
 export default exports
-
+*/
