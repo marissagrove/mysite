@@ -16,7 +16,10 @@ return (
             <p className="project"> Platform for rating and reviewing businesses. Written in Python.</p>
 	    </li>
 	    </ul>
-      </div>	    
+      </div>
+);
+}
+});	    
 
 var Navbar = React.createClass({
 render: function() {
