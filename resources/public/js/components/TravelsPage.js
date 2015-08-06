@@ -1,69 +1,6 @@
-var Projects = React.createClass({
-render: function() {
-return (
-       <div>
-	<ul className="projects">
-            <li className="project">
-            <a className="link" href="http://alarmtube.marissagrove.com"> Alarmtube-JS </a>
-            <p className="project"> An alarm that plays YouTube videos when the alarm is triggered. Written in JavaScript.</p>
-	    </li>
-	    <li className="project">
-            <a className="link" href="http://cljsalarmtube.marissagrove.com"> Alarmtube-CLJS </a>
-            <p className="project"> An alarm that plays YouTube videos when the alarm is triggered. Written in ClojureScript.</p>
-	    </li>
-	    <li className="project">
-            <a className="link" href="http://findaplace.marissagrove.com"> Find a Place </a>
-            <p className="project"> Platform for rating and reviewing businesses. Written in Python.</p>
-	    </li>
-	    </ul>
-      </div>
-);
-}
-});	    
+import React from 'react';
 
-var Navbar = React.createClass({
-render: function() {
-return (
-<div className="navbar">
-  <div className="left">
-    <ul className="directory">
-      <li className="directory-item">
-	<a href="/projects"> Projects </a>
-      </li>
-      <li className="directory-item">
-	<a href="/travels"> Travels </a>
-      </li>
-      <li className="directory-item">
-	<a href="/blog"> Blog </a>
-      </li>
-    </ul>
-  </div>
-  <div className="social-container">
-    <ul className="social-media">
-      <li className="social-media-list"> Connect 
-	<ul className="social-items">
-	  <li id="github" className="social-item">
-	    <a className="media" href="https://github.com/marissagrove" target="_blank"> GitHub </a>
-	  </li>
-	  <li id="twitter" className="social-item">
-	    <a className="media" href="https://twitter.com/MarissaGrove" target="_blank"> Twitter </a>
-	  </li>
-	  <li id="instagram" className="social-item">
-	    <a className="media" href="https://instagram.com/marissagrove" target="_blank"> Instagram </a>
-	  </li>
-	</ul>
-      </li>
-    </ul>
-  </div>
-  <h1 className="title">
-    <a href="/"> MARISSA </a>
-  </h1>
-</div>
-);
-}
-});
-
-var TravelsImage = React.createClass({
+var ContinentImage = React.createClass({
 render: function() {
 return (
 <div className="center">
@@ -78,16 +15,16 @@ return (
 }
 });
 
-var TravelsPage = React.createClass({
+var ContinentPage = React.createClass({
 render: function() {
 return (
 <div>
-<TravelsImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/africa_travels.jpg" text="Africa" destination="/travels/africa-regions" />
-<TravelsImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/canada_travels.jpg" text="Cananda" destination="/travels/canada" />
-<TravelsImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/europe_travels.jpg" text="Europe" destination="/travels/europe-regions" />
-<TravelsImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/uk_travels.jpg" text="Great Britain" destination="/travels/uk-regions" />
-<TravelsImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/japan_travels.jpg" text="Japan" destination="/travels/japan-regions" />
-<TravelsImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/jordan_travels.jpg" text="Jordan" destination="/travels/jordan" />
+<ContinentImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/africa_travels.jpg" text="Africa" destination="/travels/africa-regions" />
+<ContinentImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/canada_travels.jpg" text="Cananda" destination="/travels/canada" />
+<ContinentImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/europe_travels.jpg" text="Europe" destination="/travels/europe-regions" />
+<ContinentImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/uk_travels.jpg" text="Great Britain" destination="/travels/uk-regions" />
+<ContinentImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/japan_travels.jpg" text="Japan" destination="/travels/japan-regions" />
+<ContinentImage src="https://s3-us-west-1.amazonaws.com/mgsite-media/jordan_travels.jpg" text="Jordan" destination="/travels/jordan" />
 </div>
 );
 }
@@ -138,6 +75,12 @@ return (
 </div>
 );
 }
+});
+
+var AllRegions = React.createClass({
+    render: function() {
+	return (<div></div>);
+    }
 });
 
 var travelImages = {
@@ -692,77 +635,9 @@ return (
 }
 });
 
-var blogPosts = [{title: "Discovering React", body: "My site has been a useful place for practice, rewriting it whenever I want to try something new. I originally wrote my site in ClojureScript, and when I wanted to practice JavaScript I rewrote it. This last time I used React, which is simple-ish enough to set up and allows you to work it into your project at your own speed, meaning your entire code base doesn’t have to be changed at once to get something to render. (side note: I know I could be creating knew things instead of rewriting the same project every time, but I find it’s a good starting point for to get an initial grasp.) Components allow for an organized structure. You don’t have to write the same code in three different places, meaning a smaller more readable codebase, and who wouldn’t want that. React’s reusable components have been most useful for the blog portion of my site. Some programmers don’t want to deal with all the tedious repetition building a blog can bring about, so they’d rather use Wordpress etc. These are simple to set up and gets the job done well. However I like having everything be my own, and with React I don’t have to cringe when I look at my blog code. I store all my blog data in one variable called blogPosts and then pass it to the component to render it, and when I want to add more posts I just have to add another to blogPosts and the React component will render it. It is a night and day change from how repetitive and messy my previous attempts at building a blog were. Kind of a trailing thought, but React got me thinking about all the innovations in programming, there’s always something new to learn and work on. I’m so impressed with all the ideas that come out of this community. I meet a lot of programmers and in times past I’d feel bored by this. Why couldn’t I meet people who do something else, I’m sure they’d be so much interesting. Now that is a ridiculous notion to me, this community has so much creativity swirling around, and I just wasn’t asking the right questions. I enjoy hearing about people’s personal projects, what they spend their free time creating is a fun window into how they think and what their interests are. It refreshing to come across all of this originality and creativity daily, programmers don’t get enough respect for their artistic side."},
-{title: "Site Redesign",  body: "About a year ago I put up my personal site. A place to post my projects, photos from travels, and maybe a blog. My personal taste tends to lean toward clean and simple, so when I decided to redesign my site I didn't change anything too drastically, just made it more efficient. Originally I had my contact links in line and represented by icons, for the redesign I've put them in a dropdown menu, which to me looks much cleaner. The font weight is now much thinner, however the jury is still out on whether or not it's too thin to comfortably read! The original travel page consisted of thumbnails for each country I've traveled to. Now they are grouped by region, reducing the images on the travel page from 14 to 6, and the images are now at 100% width. Each title is a link to a comprehensive image page of photos from that region. The projects page was also thumbnails with the project name underneath, which is pretty vague. Now you can find a short description of each project and which languages/libraries/framework I used to write them. My blog page didn't have much going on, just a large image that took up most of the page. It's now been replaced by a much smaller image so you can see the most recent post without having to scroll down. Nothing drastic and still a work in progress, but it now looks more organized and up-to-date!"}];
+var exports = {
+    handler: AllRegions,
+    ContinentsHandler: ContinentPage
+};
 
-var BlogTitle = React.createClass({
-render: function() {
-return (
-<h1> {this.props.blogPost.title} </h1>
-);
-}
-});
-
-var BlogBody = React.createClass({
-render: function() {
-return (
- <p className="entry-details"> {this.props.blogPost.body} </p>
-);
-}
-});
-
-var BlogPage = React.createClass({
-render: function() {
-return (
-<div>
-  <BlogTitle blogPost={this.props.blogPost} />
- <BlogBody blogPost={this.props.blogPost} />
-</div>
-);
-}
-});
-
-var postElements = blogPosts.map (function(post) {
-return (
- <BlogPage blogPost={post} />
-)
-});
-
-React.render(
-<div>
-  {postElements}
-  <TravelPage travelImages={travelImages.austria} />
-  <TravelPage travelImages={travelImages.canada} />
-  <TravelPage travelImages={travelImages.croatia} />
-  <TravelPage travelImages={travelImages.england} />
-  <TravelPage travelImages={travelImages.france} />
-  <TravelPage travelImages={travelImages.germany} />
-  <TravelPage travelImages={travelImages.italy} />
-  <TravelPage travelImages={travelImages.jordan} />
-  <TravelPage travelImages={travelImages.kyoto} />
-  <TravelPage travelImages={travelImages.osaka} />
-  <TravelPage travelImages={travelImages.scotland} />
-  <TravelPage travelImages={travelImages.southAfrica} />
-  <TravelPage travelImages={travelImages.spain} />
-  <TravelPage travelImages={travelImages.tanzania} />
-  <TravelPage travelImages={travelImages.tokyo} />
-  <Navbar />
-  
-  <Region destinationA="/africa-regions/south-africa" titleA="South Africa"
-	  destinationB="/africa-regions/tanzania" titleB="Tanzania" />
-  <Region destinationA="/europe-regions/austria" titleA="Austria"
-	  destinationB="/europe-regions/croatia" titleB="Croatia" />
-  <Region destinationA="/europe-regions/france" titleA="France"
-	  destinationB="/europe-regions/germany" titleB="Germany" />
-  <Region destinationA="/europe-regions/italy" titleA="Italy"
-	  destinationB="/europe-regions/spain" titleB="Spain" />
-  <Region destinationA="/uk-regions/england" titleA="England"
-	  destinationB="/uk-regions/scotland" titleB="Scotland" />
-  <Region destinationA="/japan-regions/osaka" titleA="Osaka"
-	  destinationB="/japan-regions/kyoto" titleB="Kyoto" />
-  <Region destinationA="/japan-regions/tokyo" titleA="Tokyo" />
-</div>,
-document.getElementById('content')
-);
-
-
+export default exports;
