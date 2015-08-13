@@ -764,5 +764,3 @@ React.render(
 </div>,
 document.getElementById('content')
 );
-
-
