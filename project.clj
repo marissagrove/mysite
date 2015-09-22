@@ -11,16 +11,16 @@
   :plugins [[lein-ring "0.8.12"]
             [environ/environ.lein "0.2.1"]]
   :ring {:handler mg-webpage.handler/app
-         :init mg-webpage.handler/init
+         :init    mg-webpage.handler/init
          :destroy mg-webpage.handler/destroy}
   :hooks [environ.leiningen.hooks]
   :uberjar-name "mg-webpage.jar"
   :main mg-webpage.handler
   :profiles
-  {:uberjar {:aot :all}
-   :production {:env {:production true}
+  {:uberjar    {:aot :all}
+   :production {:env  {:production true}
                 :ring {:open-browser? false,
-                       :stacktraces? false,
-                       :auto-reload? false}}
-   :dev {:dependencies [[ring-mock "0.1.5"]
-                        [ring/ring-devel "1.3.1"]]}})
+                       :stacktraces?  false,
+                       :auto-reload?  false}}
+   :dev        {:dependencies [[ring-mock "0.1.5"]
+                               [ring/ring-devel "1.3.1"]]}})
