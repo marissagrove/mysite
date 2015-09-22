@@ -23,10 +23,11 @@ let App = React.createClass({
 let routes = (  
     <Route name="app" path="/" handler={App} >
       <Route name="home" path="/" handler={Landing.handler}/>
-      <Route name="projects" path="/projects" handler={Projects.handler}/>
-      <Route name="travels" path="/travels" handler={Travels.handler}/>
-      <Route name="blog" path="/blog" handler={Blog.handler}/>
-      <Route name="continents" path="/continents" handler={Travels.ContinentsHandler}/>
+    <Route name="projects" path="/projects" handler={Projects.handler}/>
+    <Route name="location" path="/travels/:regionId/:locationId" handler={Travels.LocationHandler}/>
+    <Route name="region" path="/travels/:regionId" handler={Travels.RegionHandler}/>
+    <Route name="blog" path="/blog" handler={Blog.handler}/>
+    <Route name="travels" path="/travels" handler={Travels.ContinentsHandler}/>
     </Route>
 );
 

@@ -12,7 +12,7 @@ return (
 	<Link  to="projects"> Projects </Link>
       </li>
       <li className="directory-item">
-	<Link to="continents"> Travels </Link>
+	<Link to="/travels"> Travels </Link>
       </li>
       <li className="directory-item">
 	<Link to="/blog"> Blog </Link>
