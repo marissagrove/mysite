@@ -3,7 +3,7 @@ import Router from 'react-router';
 import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
 import Navbar   from './components/Navbar.js';
-import Landing   from './components/Landing.js';
+import Landing  from './components/Landing.js';
 import Blog     from './components/Blog.js';
 import Travels  from './components/TravelsPage.js';
 import Projects from './components/Project.js';
