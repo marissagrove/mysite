@@ -622,19 +622,19 @@ var LocationPage = React.createClass({
   }
 });
 
-var regions = {africa: [{title: "South Africa", locationId: "southAfrica", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                        {title: "Tanzania", locationId: "tanzania", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"}],
-               japan: [{title: "Tokyo", locationId: "tokyo", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                       {title: "Kyoto", locationId: "kyoto", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                       {title: "Osaka", locationId: "osaka", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"}],
-               europe: [{title: "Austria", locationId: "austria", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                        {title: "Croatia", locationId: "croatia", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                        {title: "France", locationId: "france", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                        {title: "Germany", locationId: "germany", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                        {title: "Italy", locationId: "italy", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                        {title: "Spain", locationId: "spain", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"}],
-               uk: [{title: "England", locationId: "england", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"},
-                    {title: "Scotland", locationId: "scotland", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo25.jpg"}]
+var regions = {africa: [{title: "South Africa", locationId: "southAfrica", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/sa14.jpg"},
+                        {title: "Tanzania", locationId: "tanzania", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tanzania22.jpg"}],
+               japan: [{title: "Tokyo", locationId: "tokyo", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/tokyo17.jpg"},
+                       {title: "Kyoto", locationId: "kyoto", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/kyoto8.jpg"},
+                       {title: "Osaka", locationId: "osaka", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/osaka12.jpg"}],
+               europe: [{title: "Austria", locationId: "austria", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/austria5.jpg"},
+                        {title: "Croatia", locationId: "croatia", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/croatia3.jpg"},
+                        {title: "France", locationId: "france", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/paris10.jpg"},
+                        {title: "Germany", locationId: "germany", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/berlin2.jpg"},
+                        {title: "Italy", locationId: "italy", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/italy4.jpg"},
+                        {title: "Spain", locationId: "spain", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/spain11.jpg"}],
+               uk: [{title: "England", locationId: "england", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/england143.jpg"},
+                    {title: "Scotland", locationId: "scotland", src: "https://s3-us-west-1.amazonaws.com/mgsite-media/scotland2.jpg"}]
               };
 
 var RegionPage = React.createClass({
