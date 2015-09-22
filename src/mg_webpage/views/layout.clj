@@ -9,7 +9,7 @@
      [:link {:href "/css/screen.css", :rel "stylesheet", :type "text/css"}]
      [:script {:src "https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js", :type "application/javascript" }]
      [:script {:src "https://cdnjs.cloudflare.com/ajax/libs/react-router/0.13.3/ReactRouter.min.js", :type "application/javascript"}]
-     [:script {:src "https://fb.me/JSXTransformer-0.13.3.js", :type "application/javascript" }]
+     ;;[:script {:src "https://fb.me/JSXTransformer-0.13.3.js", :type "application/javascript" }]
      [:script {:src "/js/main.jsx", :type "text/jsx" }]
      [:script {:src "/js/route.jsx", :type "text/jsx" }]]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
