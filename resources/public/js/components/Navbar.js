@@ -37,9 +37,9 @@ return (
     </ul>
   </div>
   <h1 className="title">
-    <a href="/"> MARISSA </a>
-  </h1>
-</div>
+    <Link to="/"> MARISSA </Link>
+    </h1>
+    </div>
 );
 }
 });
