@@ -13,8 +13,8 @@ let App = React.createClass({
   render() {
     return (
       <div>
-	<Navbar />
-        <RouteHandler/>
+	      <Navbar />
+        <RouteHandler />
       </div>
     );
   }
