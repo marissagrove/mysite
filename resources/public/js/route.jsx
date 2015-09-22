@@ -22,17 +22,17 @@ let App = React.createClass({
 
 let routes = (  
     <Route name="app" path="/" handler={App} >
-     <Route name="home" path="/" handler={Landing.handler}/>
-     <Route name="projects" path="/projects" handler={Projects.handler}/>
-     <Route name="travels" path="/travels" handler={Travels.handler}/>
-     <Route name="blog" path="/blog" handler={Blog.handler}/>
-     <Route name="continents" path="/continents" handler={Travels.ContinentsHandler}/>
+      <Route name="home" path="/" handler={Landing.handler}/>
+      <Route name="projects" path="/projects" handler={Projects.handler}/>
+      <Route name="travels" path="/travels" handler={Travels.handler}/>
+      <Route name="blog" path="/blog" handler={Blog.handler}/>
+      <Route name="continents" path="/continents" handler={Travels.ContinentsHandler}/>
     </Route>
-	
 );
 
-Router.run(routes, function (Handler) {  
-  React.render(<Handler/>, document.body);
-});
-
-console.log("hello world");
+window.onload = function() {
+  Router.run(routes, function (Handler) {
+    var appEl = document.body.querySelector(".app");
+    React.render(<Handler/>, appEl);
+  });
+}
