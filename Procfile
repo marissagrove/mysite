@@ -1,1 +1,1 @@
-web: java $JVM_OPTS -cp target/mg-webpage.jar clojure.main -m mg-webpage.handler
+web: npm run build && lein ring server-headless $PORT
