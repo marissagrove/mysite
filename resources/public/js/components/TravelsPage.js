@@ -61,23 +61,6 @@ var SideB = React.createClass({
   }
 });
 
-var Region = React.createClass({
-render: function() {
-var left = <SideA href={this.props.destinationA} titles={this.props.titleA} />;
-var right = <div></div>;
-if (!!this.props.destinationB && !!this.props.titleB)  {
-right = <SideB href={this.props.destinationB} titles={this.props.titleB} />;
-}
-
-return (
-<div className="center">
-{left}
-{right}
-</div>
-);
-}
-});
-
 var AllRegions = React.createClass({
     render: function() {
 	    return (<div></div>);
