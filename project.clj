@@ -15,6 +15,7 @@
          :destroy mg-webpage.handler/destroy}
   :hooks [environ.leiningen.hooks]
   :uberjar-name "mg-webpage.jar"
+  :main mg-webpage.handler
   :profiles
   {:uberjar {:aot :all}
    :production {:env {:production true}
