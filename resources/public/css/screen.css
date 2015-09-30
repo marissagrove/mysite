@@ -186,7 +186,15 @@ h1 {
     color: black;
     font-weight: 300;
     text-align: center;
-    letter-spacing: 2;
+    letter-spacing: 2px;
+    }
+
+h2 {
+    font-weight: 100;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    letter-spacing: 2px;
     }
 
 .titles {

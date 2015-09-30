@@ -37,7 +37,9 @@ var SideA = React.createClass({
         <div className="sidea">
         <Link to={this.props.to}>
         <div className="overlay">
+	<div className="center">
         <img className="direct-image" src={this.props.titleImageSource} />
+	</div>
         </div>
         <h1 className="titles">{this.props.title}</h1>
         </Link>
@@ -52,7 +54,9 @@ var SideB = React.createClass({
         <div className="sideb">
         <Link to={this.props.to}>
         <div className="overlay">
+	<div className="center">
         <img className="direct-image" src={this.props.titleImageSource} />
+	</div>    
         </div>
         <h1 className="titles">{this.props.title}</h1>
         </Link>
