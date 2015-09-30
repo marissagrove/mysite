@@ -11,9 +11,10 @@ body {
     }
 
 .landingimage {
-    text-align: center;
     margin-top: 5%;
-    }
+    width: 50%;
+    height: 50%;
+       }
 
 .title {
     text-align: center;
@@ -303,11 +304,13 @@ video {
 
 .vert-mid {
     height: 80%;
+    width: 50%;
     margin-bottom: .5rem;
       }
 
 .vert-mids {
     height: 80%;
+    width: 50%;
     margin-bottom: .5rem;
     margin-right: .5rem;
     }
