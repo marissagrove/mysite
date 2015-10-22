@@ -26,7 +26,7 @@ return (
 var BlogPage = React.createClass({
 render: function() {
 return (
-<div>
+<div className="blog-post">
   <BlogTitle blogPost={this.props.blogPost} />
  <BlogBody blogPost={this.props.blogPost} />
 </div>

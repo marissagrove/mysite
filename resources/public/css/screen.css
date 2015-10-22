@@ -1,4 +1,4 @@
-body {
+lobody {
     color: #555;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -266,6 +266,11 @@ video {
     letter-spacing: 2;
     margin: 0 15% 0 15%;
 }
+
+.blog-post {
+    margin-left: 20%;
+    margin-right: 20%;
+    }
 
 .place-image {
     width: 100%;
