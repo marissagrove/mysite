@@ -15,7 +15,7 @@ var LandingPage = React.createClass({
     componentDidMount: function() {
 	twitterDidMount(document,"script","twitter-wjs");
 	var fixStyles = function() {
-	    var twitterIframeEl = document.querySelector('iframe#twitter-widget-0')
+	    var twitterIframeEl = document.querySelector('iframe.twitter-timeline-rendered')
 	    , twitterIsFinishedLoading = twitterIframeEl && twitterIframeEl.style.height == '600px' && twitterIframeEl.style.position == 'static';
 	    //In order for style changes to apply we have to wait
 	    //until the iframe has loaded to manipulate the js. Run
